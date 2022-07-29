@@ -54,9 +54,7 @@
                 <plugin>
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-jspc-maven-plugin</artifactId>
-                    <!-- version 9.4.44.v20210927 and newer fails -->
-<!--                     <version>9.4.44.v20210927</version>-->
-                    <version>9.4.43.v20210629</version>
+                    <version>11.0.11</version>
                     <executions>
                         <execution>
                             <id>jspc</id>
