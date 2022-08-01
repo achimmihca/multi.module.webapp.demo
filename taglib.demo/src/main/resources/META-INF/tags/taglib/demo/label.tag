@@ -2,4 +2,9 @@
 
 <%@attribute name="text" type="java.lang.String" required="true" %>
 
-<span><%= text %></span>
+<%@tag import="webapp.demo.WebAppDemoClass"%>
+
+<div><%= text %></div>
+
+<%-- Use class from webapp.demo prematurely --%>
+<div>Prematurely used: <%= WebAppDemoClass.class.getName() %></div>
